@@ -7,8 +7,8 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 const configuration = new Configuration({
-  organization: "org-Qg3VNaibV7KVz8SHiZVx1glz",
-  apiKey: "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",
+  organization: "org-YOUR_ORG",
+  apiKey: "sk-YOUR_API_KEY",
 });
 
 const openai = new OpenAIApi(configuration);
